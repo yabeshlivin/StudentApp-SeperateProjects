@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "WzlGAot0JtUd49vE6XgeoK/MDT0+C+AwGzJQlOkj/+4=",
+  "Source": "StudentApp2.1",
+  "BasePath": "_content/StudentApp2.1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StudentApp2.1\\wwwroot",
+      "Source": "StudentApp2.1",
+      "ContentRoot": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\",
+      "BasePath": "_content/StudentApp2.1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
