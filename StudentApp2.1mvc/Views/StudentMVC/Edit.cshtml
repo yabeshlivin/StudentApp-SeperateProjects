@@ -1,0 +1,161 @@
+﻿@model StudentLibrary.Models.Student
+
+<h2 class="text-center my-4">Edit Student Details</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data" class="container border p-4 rounded shadow-sm">
+    <input asp-for="StudentId"type="hidden" />
+    <div class="mb-3">
+        <label asp-for="RollNo" class="form-label">Roll Number:</label>
+        <input asp-for="RollNo" class="form-control" />
+        <span asp-validation-for="RollNo" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label">First Name:</label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label">Last Name:</label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FatherName" class="form-label">Father's Name:</label>
+        <input asp-for="FatherName" class="form-control" />
+        <span asp-validation-for="FatherName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DOB" class="form-label">Date of Birth:</label>
+        <input asp-for="DOB" type="date" class="form-control" />
+        <span asp-validation-for="DOB" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MobileNo" class="form-label">Mobile Number:</label>
+        <input asp-for="MobileNo" class="form-control" />
+        <span asp-validation-for="MobileNo" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="EmailId" class="form-label">Email:</label>
+        <input asp-for="EmailId" class="form-control" />
+        <span asp-validation-for="EmailId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Password:</label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Gender:</label><br />
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Gender" value="Male" class="form-check-input" />
+            <label class="form-check-label">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Gender" value="Female" class="form-check-input" />
+            <label class="form-check-label">Female</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Gender" value="Other" class="form-check-input" />
+            <label class="form-check-label">Other</label>
+        </div>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Department:</label><br />
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Department" value="IT" id="deptIT" class="form-check-input" />
+            <label class="form-check-label" for="deptIT">IT</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Department" value="Business" id="deptBusiness" class="form-check-input" />
+            <label class="form-check-label" for="deptBusiness">Business</label>
+        </div>
+        <span asp-validation-for="Department" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Course" class="form-label">Course:</label>
+        <select asp-for="Course" id="courseDropdown" class="form-select">
+            <option value="">-- Select Course --</option>
+        </select>
+        <span asp-validation-for="Course" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Photo" class="form-label">Photo:</label>
+        <input asp-for="Photo" type="file" class="form-control" />
+        <span asp-validation-for="Photo" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="City" class="form-label">City:</label>
+        <input asp-for="City" class="form-control" />
+        <span asp-validation-for="City" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Address" class="form-label">Address:</label>
+        <textarea asp-for="Address" class="form-control"></textarea>
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a href="/StudentMVC/Read/" class="btn btn-secondary ms-2">Back</a>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const deptIT = document.getElementById('deptIT');
+        const deptBusiness = document.getElementById('deptBusiness');
+        const courseDropdown = document.getElementById('courseDropdown');
+
+        // Define courses for each department
+        const courses = {
+            IT: ['Java', 'Python'],
+            Business: ['BCom', 'BBA']
+        };
+
+        // Function to update course dropdown
+        function updateCourses() {
+            // Clear existing options
+            courseDropdown.innerHTML = '<option value="">-- Select Course --</option>';
+
+            // Get selected department
+            let selectedDept = null;
+            if (deptIT.checked) selectedDept = 'IT';
+            if (deptBusiness.checked) selectedDept = 'Business';
+
+            // Add courses for selected department
+            if (selectedDept && courses[selectedDept]) {
+                courses[selectedDept].forEach(course => {
+                    const option = document.createElement('option');
+                    option.value = course;
+                    option.textContent = course;
+                    courseDropdown.appendChild(option);
+                });
+            }
+        }
+
+        // Add event listeners to department radio buttons
+        deptIT.addEventListener('change', updateCourses);
+        deptBusiness.addEventListener('change', updateCourses);
+
+        // Initialize courses if a department is already selected
+        updateCourses();
+    });
+

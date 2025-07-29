@@ -173,3 +173,4 @@ C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1\obj\Debug\net8.0\ref\St
 C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1\bin\Debug\net8.0\StudentLibrary.dll
 C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1\bin\Debug\net8.0\StudentLibrary.pdb
 C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1\bin\Debug\net8.0\StudentApp2.1.staticwebassets.runtime.json
+C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1\obj\Debug\net8.0\StudentApp2.1.sourcelink.json

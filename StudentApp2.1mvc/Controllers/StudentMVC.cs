@@ -56,7 +56,7 @@ namespace StudentApp2._1mvc.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             await _repo.DeleteAsync(id);
-            return RedirectToAction("Index");
+            return RedirectToAction("Read");
         }
 
         public async Task<IActionResult> Edit(int id)

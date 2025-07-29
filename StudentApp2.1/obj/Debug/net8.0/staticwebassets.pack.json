@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg",
+      "PackagePath": "staticwebassets\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StudentApp2.1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StudentApp2.1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.StudentApp2.1.props",
+      "PackagePath": "build\\StudentApp2.1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.StudentApp2.1.props",
+      "PackagePath": "buildMultiTargeting\\StudentApp2.1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.StudentApp2.1.props",
+      "PackagePath": "buildTransitive\\StudentApp2.1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

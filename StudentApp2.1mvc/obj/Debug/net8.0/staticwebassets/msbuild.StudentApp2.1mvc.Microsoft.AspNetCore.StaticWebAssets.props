@@ -36,6 +36,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\37fc80b7-97c8-44db-b007-a81385cdeb7d_133861514367026077.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudentApp2.1mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudentApp2.1mvc</BasePath>
+      <RelativePath>images/37fc80b7-97c8-44db-b007-a81385cdeb7d_133861514367026077.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fx8ygczm2q</Fingerprint>
+      <Integrity>s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\37fc80b7-97c8-44db-b007-a81385cdeb7d_133861514367026077.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7e760b38-1a41-434f-a044-bbff4e395c59_133861514364907053.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>StudentApp2.1mvc</SourceId>

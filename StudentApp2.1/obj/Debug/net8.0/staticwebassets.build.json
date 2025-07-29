@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WzlGAot0JtUd49vE6XgeoK/MDT0+C+AwGzJQlOkj/+4=",
+  "Hash": "Io6kopgLXylxhYrzeAiqN1gY53Y/zzsKE5SL+naplpU=",
   "Source": "StudentApp2.1",
   "BasePath": "_content/StudentApp2.1",
   "Mode": "Default",
@@ -15,6 +15,111 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg",
+      "SourceId": "StudentApp2.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\",
+      "BasePath": "_content/StudentApp2.1",
+      "RelativePath": "images/b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8fpckv9h29",
+      "Integrity": "TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.8fpckv9h29.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2211286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 13:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8fpckv9h29"
+        },
+        {
+          "Name": "label",
+          "Value": "images/b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY="
+        }
+      ]
+    },
+    {
+      "Route": "images/b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2211286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 13:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY="
+        }
+      ]
+    }
+  ]
 }

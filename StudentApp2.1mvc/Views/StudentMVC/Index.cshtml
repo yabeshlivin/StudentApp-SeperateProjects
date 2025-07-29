@@ -1,102 +1,117 @@
-﻿@model StudentLibrary.Models.Student
+﻿
+@model StudentLibrary.Models.Student
 
-<h2>Student Registration</h2>
+<h2 class="text-center my-4">Student Registration</h2>
 
-<form asp-action="Register" method="post" enctype="multipart/form-data">
-    <div>
-        <label asp-for="RollNo">Roll Number:</label>
-        <input asp-for="RollNo" />
-        <span asp-validation-for="RollNo"></span>
+<form asp-action="Register" method="post" enctype="multipart/form-data" class="container border p-4 rounded shadow-sm">
+    <div class="mb-3">
+        <label asp-for="RollNo" class="form-label">Roll Number:</label>
+        <input asp-for="RollNo" class="form-control" />
+        <span asp-validation-for="RollNo" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="FirstName">First Name:</label>
-        <input asp-for="FirstName" />
-        <span asp-validation-for="FirstName"></span>
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label">First Name:</label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="LastName">Last Name:</label>
-        <input asp-for="LastName" />
-        <span asp-validation-for="LastName"></span>
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label">Last Name:</label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="FatherName">Father's Name:</label>
-        <input asp-for="FatherName" />
-        <span asp-validation-for="FatherName"></span>
+    <div class="mb-3">
+        <label asp-for="FatherName" class="form-label">Father's Name:</label>
+        <input asp-for="FatherName" class="form-control" />
+        <span asp-validation-for="FatherName" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="DOB">Date of Birth:</label>
-        <input asp-for="DOB" type="date" />
-        <span asp-validation-for="DOB"></span>
+    <div class="mb-3">
+        <label asp-for="DOB" class="form-label">Date of Birth:</label>
+        <input asp-for="DOB" type="date" class="form-control" />
+        <span asp-validation-for="DOB" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="MobileNo">Mobile Number:</label>
-        <input asp-for="MobileNo" />
-        <span asp-validation-for="MobileNo"></span>
+    <div class="mb-3">
+        <label asp-for="MobileNo" class="form-label">Mobile Number:</label>
+        <input asp-for="MobileNo" class="form-control" />
+        <span asp-validation-for="MobileNo" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="EmailId">Email:</label>
-        <input asp-for="EmailId" />
-        <span asp-validation-for="EmailId"></span>
+    <div class="mb-3">
+        <label asp-for="EmailId" class="form-label">Email:</label>
+        <input asp-for="EmailId" class="form-control" />
+        <span asp-validation-for="EmailId" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="Password">Password:</label>
-        <input asp-for="Password" type="password" />
-        <span asp-validation-for="Password"></span>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Password:</label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
     </div>
 
-    <div>
-        <label>Gender:</label>
-        <input type="radio" asp-for="Gender" value="Male" /> Male
-        <input type="radio" asp-for="Gender" value="Female" /> Female
-        <input type="radio" asp-for="Gender" value="Other" /> Other
-        <span asp-validation-for="Gender"></span>
+    <div class="mb-3">
+        <label class="form-label">Gender:</label><br />
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Gender" value="Male" class="form-check-input" />
+            <label class="form-check-label">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Gender" value="Female" class="form-check-input" />
+            <label class="form-check-label">Female</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Gender" value="Other" class="form-check-input" />
+            <label class="form-check-label">Other</label>
+        </div>
+        <span asp-validation-for="Gender" class="text-danger"></span>
     </div>
 
-    <div>
-        <label>Department:</label>
-        <input type="radio" asp-for="Department" value="IT" id="deptIT" /> IT
-        <input type="radio" asp-for="Department" value="Business" id="deptBusiness" /> Business
-        <span asp-validation-for="Department"></span>
+    <div class="mb-3">
+        <label class="form-label">Department:</label><br />
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Department" value="IT" id="deptIT" class="form-check-input" />
+            <label class="form-check-label" for="deptIT">IT</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" asp-for="Department" value="Business" id="deptBusiness" class="form-check-input" />
+            <label class="form-check-label" for="deptBusiness">Business</label>
+        </div>
+        <span asp-validation-for="Department" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="Course">Course:</label>
-        <select asp-for="Course" id="courseDropdown">
+    <div class="mb-3">
+        <label asp-for="Course" class="form-label">Course:</label>
+        <select asp-for="Course" id="courseDropdown" class="form-select">
             <option value="">-- Select Course --</option>
-            <!-- Options will be populated by JavaScript based on department selection -->
         </select>
-        <span asp-validation-for="Course"></span>
+        <span asp-validation-for="Course" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="Photo">Photo:</label>
-        <input asp-for="Photo" type="file" />
-        <span asp-validation-for="Photo"></span>
+    <div class="mb-3">
+        <label asp-for="Photo" class="form-label">Photo:</label>
+        <input asp-for="Photo" type="file" class="form-control" />
+        <span asp-validation-for="Photo" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="City">City:</label>
-        <input asp-for="City" />
-        <span asp-validation-for="City"></span>
+    <div class="mb-3">
+        <label asp-for="City" class="form-label">City:</label>
+        <input asp-for="City" class="form-control" />
+        <span asp-validation-for="City" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="Address">Address:</label>
-        <textarea asp-for="Address"></textarea>
-        <span asp-validation-for="Address"></span>
+    <div class="mb-3">
+        <label asp-for="Address" class="form-label">Address:</label>
+        <textarea asp-for="Address" class="form-control"></textarea>
+        <span asp-validation-for="Address" class="text-danger"></span>
     </div>
 
-    <button type="submit">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a href="/StudentMVC/Read/" class="btn btn-secondary ms-2">View Students</a>
 </form>
-<a href="~/StdentMVC/Index/">Index</a>
-<a href="~/StdentMVC/Read/">Read</a>
+
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

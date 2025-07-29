@@ -172,3 +172,4 @@ C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1mvc\obj\Debug\net8.0\Stu
 C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1mvc\obj\Debug\net8.0\ref\StudentApp2.1mvc.dll
 C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1mvc\bin\Debug\net8.0\StudentLibrary.dll
 C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1mvc\bin\Debug\net8.0\StudentLibrary.pdb
+C:\Users\yabesh\source\repos\StudentApp2.1\StudentApp2.1mvc\obj\Debug\net8.0\StudentApp2.1mvc.sourcelink.json
