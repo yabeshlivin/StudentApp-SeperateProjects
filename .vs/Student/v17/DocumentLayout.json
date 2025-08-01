@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\views\\studentmvc\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\views\\studentmvc\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\controllers\\studentmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\controllers\\studentmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\views\\studentmvc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\views\\studentmvc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\views\\studentmvc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\views\\studentmvc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260A4C8E-45CA-4520-9F93-EF6198DFA9EE}|StudentLibrary\\StudentLibrary.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentlibrary\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260A4C8E-45CA-4520-9F93-EF6198DFA9EE}|StudentLibrary\\StudentLibrary.csproj|solutionrelative:studentlibrary\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\views\\studentmvc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\views\\studentmvc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\controllers\\studentmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\controllers\\studentmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5479208-3324-4DBE-89DD-677283AEA066}|StudentApp2.1\\StudentApp2.1.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5479208-3324-4DBE-89DD-677283AEA066}|StudentApp2.1\\StudentApp2.1.csproj|solutionrelative:studentapp2.1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5479208-3324-4DBE-89DD-677283AEA066}|StudentApp2.1\\StudentApp2.1.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5479208-3324-4DBE-89DD-677283AEA066}|StudentApp2.1\\StudentApp2.1.csproj|solutionrelative:studentapp2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5479208-3324-4DBE-89DD-677283AEA066}|StudentApp2.1\\StudentApp2.1.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5479208-3324-4DBE-89DD-677283AEA066}|StudentApp2.1\\StudentApp2.1.csproj|solutionrelative:studentapp2.1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A4C8E-45CA-4520-9F93-EF6198DFA9EE}|StudentLibrary\\StudentLibrary.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentlibrary\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A4C8E-45CA-4520-9F93-EF6198DFA9EE}|StudentLibrary\\StudentLibrary.csproj|solutionrelative:studentlibrary\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\views\\studentmvc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\views\\studentmvc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A4C8E-45CA-4520-9F93-EF6198DFA9EE}|StudentLibrary\\StudentLibrary.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentlibrary\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A4C8E-45CA-4520-9F93-EF6198DFA9EE}|StudentLibrary\\StudentLibrary.csproj|solutionrelative:studentlibrary\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5479208-3324-4DBE-89DD-677283AEA066}|StudentApp2.1\\StudentApp2.1.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5479208-3324-4DBE-89DD-677283AEA066}|StudentApp2.1\\StudentApp2.1.csproj|solutionrelative:studentapp2.1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|c:\\users\\yabesh\\source\\repos\\studentapp2.1\\studentapp2.1mvc\\views\\studentmvc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15F570B9-41C1-47ED-BAFB-6310F0EC06A6}|StudentApp2.1mvc\\StudentApp2.1mvc.csproj|solutionrelative:studentapp2.1mvc\\views\\studentmvc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +74,212 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Program.cs",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Program.cs",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Program.cs",
+              "RelativeToolTip": "StudentApp2.1mvc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T14:03:45.574Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentMvcController.cs",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Controllers\\StudentMvcController.cs",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Controllers\\StudentMvcController.cs",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Controllers\\StudentMvcController.cs",
+              "RelativeToolTip": "StudentApp2.1mvc\\Controllers\\StudentMvcController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAwwIYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:13:17.114Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Views\\StudentMvc\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Index.cshtml",
+              "RelativeToolTip": "StudentApp2.1mvc\\Views\\StudentMvc\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T03:34:32.846Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StudentApp2.1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StudentApp2.1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T06:21:34.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Details.cshtml",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Views\\StudentMvc\\Details.cshtml",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Details.cshtml",
+              "RelativeToolTip": "StudentApp2.1mvc\\Views\\StudentMvc\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T02:29:49.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentLibrary\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "StudentLibrary\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentLibrary\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "StudentLibrary\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T04:54:25.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Create.cshtml",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Views\\StudentMvc\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Create.cshtml",
+              "RelativeToolTip": "StudentApp2.1mvc\\Views\\StudentMvc\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T03:43:37.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentApp2.1\\appsettings.json",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\appsettings.json",
+              "RelativeToolTip": "StudentApp2.1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-31T08:28:14.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Delete.cshtml",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Views\\StudentMvc\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Delete.cshtml",
+              "RelativeToolTip": "StudentApp2.1mvc\\Views\\StudentMvc\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T02:49:15.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\appsettings.json",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\appsettings.json",
+              "RelativeToolTip": "StudentApp2.1mvc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-31T02:34:26.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StudentApp2.1mvc\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-31T02:01:47.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "StudentApp2.1mvc\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:45:37.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentApp2.1\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentApp2.1\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAiwCYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:14:15.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\Program.cs",
+              "RelativeDocumentMoniker": "StudentApp2.1\\Program.cs",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\Program.cs",
+              "RelativeToolTip": "StudentApp2.1\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T14:02:27.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMVC\\Edit.cshtml",
-              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Views\\StudentMVC\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMVC\\Edit.cshtml",
-              "RelativeToolTip": "StudentApp2.1mvc\\Views\\StudentMVC\\Edit.cshtml",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAG8AAAARAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Edit.cshtml",
+              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Views\\StudentMvc\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMvc\\Edit.cshtml",
+              "RelativeToolTip": "StudentApp2.1mvc\\Views\\StudentMvc\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-29T05:43:33.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentLibrary\\Models\\Student.cs",
               "RelativeDocumentMoniker": "StudentLibrary\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentLibrary\\Models\\Student.cs",
               "RelativeToolTip": "StudentLibrary\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T05:18:40.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMVC\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Views\\StudentMVC\\Index.cshtml",
-              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMVC\\Index.cshtml",
-              "RelativeToolTip": "StudentApp2.1mvc\\Views\\StudentMVC\\Index.cshtml",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T05:15:09.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Read.cshtml",
-              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMVC\\Read.cshtml",
-              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Views\\StudentMVC\\Read.cshtml",
-              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Views\\StudentMVC\\Read.cshtml",
-              "RelativeToolTip": "StudentApp2.1mvc\\Views\\StudentMVC\\Read.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T05:13:15.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentMVC.cs",
-              "DocumentMoniker": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Controllers\\StudentMVC.cs",
-              "RelativeDocumentMoniker": "StudentApp2.1mvc\\Controllers\\StudentMVC.cs",
-              "ToolTip": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1mvc\\Controllers\\StudentMVC.cs",
-              "RelativeToolTip": "StudentApp2.1mvc\\Controllers\\StudentMVC.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T03:13:17.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T05:18:40.916Z"
             }
           ]
         }

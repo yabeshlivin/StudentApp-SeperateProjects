@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Io6kopgLXylxhYrzeAiqN1gY53Y/zzsKE5SL+naplpU=",
+  "Hash": "RunXKCulRLOcf5jfz6tcW+cb6T4pCcPVfUOWME/GCI0=",
   "Source": "StudentApp2.1",
   "BasePath": "_content/StudentApp2.1",
   "Mode": "Default",
@@ -16,6 +16,69 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558.jpg",
+      "SourceId": "StudentApp2.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\",
+      "BasePath": "_content/StudentApp2.1",
+      "RelativePath": "images/07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8fpckv9h29",
+      "Integrity": "TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077.jpg",
+      "SourceId": "StudentApp2.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\",
+      "BasePath": "_content/StudentApp2.1",
+      "RelativePath": "images/54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fx8ygczm2q",
+      "Integrity": "s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558.jpg",
+      "SourceId": "StudentApp2.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\",
+      "BasePath": "_content/StudentApp2.1",
+      "RelativePath": "images/80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8fpckv9h29",
+      "Integrity": "TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558.jpg"
+    },
     {
       "Identity": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg",
       "SourceId": "StudentApp2.1",
@@ -36,9 +99,318 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077.jpg",
+      "SourceId": "StudentApp2.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\",
+      "BasePath": "_content/StudentApp2.1",
+      "RelativePath": "images/c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fx8ygczm2q",
+      "Integrity": "s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077.jpg",
+      "SourceId": "StudentApp2.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\",
+      "BasePath": "_content/StudentApp2.1",
+      "RelativePath": "images/d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fx8ygczm2q",
+      "Integrity": "s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558.jpg",
+      "SourceId": "StudentApp2.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\",
+      "BasePath": "_content/StudentApp2.1",
+      "RelativePath": "images/ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8fpckv9h29",
+      "Integrity": "TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558.jpg"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "images/07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558.8fpckv9h29.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2211286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 13:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8fpckv9h29"
+        },
+        {
+          "Name": "label",
+          "Value": "images/07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY="
+        }
+      ]
+    },
+    {
+      "Route": "images/07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2211286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 13:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY="
+        }
+      ]
+    },
+    {
+      "Route": "images/54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077.fx8ygczm2q.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1745539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 02:53:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fx8ygczm2q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0="
+        }
+      ]
+    },
+    {
+      "Route": "images/54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1745539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 02:53:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0="
+        }
+      ]
+    },
+    {
+      "Route": "images/80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558.8fpckv9h29.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2211286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 03:12:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8fpckv9h29"
+        },
+        {
+          "Name": "label",
+          "Value": "images/80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY="
+        }
+      ]
+    },
+    {
+      "Route": "images/80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2211286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 03:12:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY="
+        }
+      ]
+    },
     {
       "Route": "images/b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.8fpckv9h29.jpg",
       "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg",
@@ -108,6 +480,252 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 28 Jul 2025 13:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY="
+        }
+      ]
+    },
+    {
+      "Route": "images/c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077.fx8ygczm2q.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1745539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 06:05:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fx8ygczm2q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0="
+        }
+      ]
+    },
+    {
+      "Route": "images/c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1745539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 06:05:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0="
+        }
+      ]
+    },
+    {
+      "Route": "images/d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077.fx8ygczm2q.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1745539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 06:25:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fx8ygczm2q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0="
+        }
+      ]
+    },
+    {
+      "Route": "images/d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1745539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 06:25:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s9EEw6gCHo5h/QZQb/dcos8G4Mdj8TALVLoB2a0soK0="
+        }
+      ]
+    },
+    {
+      "Route": "images/ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558.8fpckv9h29.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2211286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 04:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8fpckv9h29"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY="
+        }
+      ]
+    },
+    {
+      "Route": "images/ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558.jpg",
+      "AssetFile": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2211286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLQsQy7Wr5nZ5WLUL/xZZzF4LTNIP1Yc7vCn/bLxlZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 04:38:45 GMT"
         },
         {
           "Name": "Cache-Control",

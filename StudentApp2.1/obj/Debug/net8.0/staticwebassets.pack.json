@@ -1,8 +1,32 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558.jpg",
+      "PackagePath": "staticwebassets\\images\\07d2ad77-aba8-4e23-ad72-8982625cdc65_133871011073706558.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077.jpg",
+      "PackagePath": "staticwebassets\\images\\54f4809b-e6cd-4d94-9684-2a3a863135cb_133861514367026077.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558.jpg",
+      "PackagePath": "staticwebassets\\images\\80451a69-ae6b-4061-b387-6aabb0a3b14b_133871011073706558.jpg"
+    },
+    {
       "Id": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg",
       "PackagePath": "staticwebassets\\images\\b23e97f4-0e7b-4a34-b576-a60445b6a7b1_133871011073706558.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077.jpg",
+      "PackagePath": "staticwebassets\\images\\c294ae27-b1bf-4121-8b3d-0de59cd51ba4_133861514367026077.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077.jpg",
+      "PackagePath": "staticwebassets\\images\\d985d719-f3ee-4c4c-ad33-c8ae644f0b20_133861514367026077.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yabesh\\source\\repos\\StudentApp2.1\\StudentApp2.1\\wwwroot\\images\\ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558.jpg",
+      "PackagePath": "staticwebassets\\images\\ddabefe4-a58e-4c18-8407-68abf3394696_133871011073706558.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StudentApp2.1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

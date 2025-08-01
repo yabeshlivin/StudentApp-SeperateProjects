@@ -1,17 +1,7 @@
-using Microsoft.EntityFrameworkCore;
-using StudentLibrary.Data;
-using StudentLibrary.Repositories;
-
-using System;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddHttpClient();
 
 var app = builder.Build();
@@ -33,6 +23,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=StudentMVC}/{action=Index}/{id?}");
+    pattern: "{controller=StudentMvc}/{action=Index}/{id?}");
 
 app.Run();

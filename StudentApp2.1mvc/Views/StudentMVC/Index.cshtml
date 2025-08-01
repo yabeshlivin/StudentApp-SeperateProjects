@@ -1,162 +1,66 @@
-﻿
-@model StudentLibrary.Models.Student
+﻿@model List<StudentLibrary.Models.Student>
 
-<h2 class="text-center my-4">Student Registration</h2>
+@{
+    ViewData["Title"] = "Student List";
 
-<form asp-action="Register" method="post" enctype="multipart/form-data" class="container border p-4 rounded shadow-sm">
-    <div class="mb-3">
-        <label asp-for="RollNo" class="form-label">Roll Number:</label>
-        <input asp-for="RollNo" class="form-control" />
-        <span asp-validation-for="RollNo" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="FirstName" class="form-label">First Name:</label>
-        <input asp-for="FirstName" class="form-control" />
-        <span asp-validation-for="FirstName" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="LastName" class="form-label">Last Name:</label>
-        <input asp-for="LastName" class="form-control" />
-        <span asp-validation-for="LastName" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="FatherName" class="form-label">Father's Name:</label>
-        <input asp-for="FatherName" class="form-control" />
-        <span asp-validation-for="FatherName" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="DOB" class="form-label">Date of Birth:</label>
-        <input asp-for="DOB" type="date" class="form-control" />
-        <span asp-validation-for="DOB" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="MobileNo" class="form-label">Mobile Number:</label>
-        <input asp-for="MobileNo" class="form-control" />
-        <span asp-validation-for="MobileNo" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="EmailId" class="form-label">Email:</label>
-        <input asp-for="EmailId" class="form-control" />
-        <span asp-validation-for="EmailId" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="Password" class="form-label">Password:</label>
-        <input asp-for="Password" type="password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label class="form-label">Gender:</label><br />
-        <div class="form-check form-check-inline">
-            <input type="radio" asp-for="Gender" value="Male" class="form-check-input" />
-            <label class="form-check-label">Male</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input type="radio" asp-for="Gender" value="Female" class="form-check-input" />
-            <label class="form-check-label">Female</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input type="radio" asp-for="Gender" value="Other" class="form-check-input" />
-            <label class="form-check-label">Other</label>
-        </div>
-        <span asp-validation-for="Gender" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label class="form-label">Department:</label><br />
-        <div class="form-check form-check-inline">
-            <input type="radio" asp-for="Department" value="IT" id="deptIT" class="form-check-input" />
-            <label class="form-check-label" for="deptIT">IT</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input type="radio" asp-for="Department" value="Business" id="deptBusiness" class="form-check-input" />
-            <label class="form-check-label" for="deptBusiness">Business</label>
-        </div>
-        <span asp-validation-for="Department" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="Course" class="form-label">Course:</label>
-        <select asp-for="Course" id="courseDropdown" class="form-select">
-            <option value="">-- Select Course --</option>
-        </select>
-        <span asp-validation-for="Course" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="Photo" class="form-label">Photo:</label>
-        <input asp-for="Photo" type="file" class="form-control" />
-        <span asp-validation-for="Photo" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="City" class="form-label">City:</label>
-        <input asp-for="City" class="form-control" />
-        <span asp-validation-for="City" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="Address" class="form-label">Address:</label>
-        <textarea asp-for="Address" class="form-control"></textarea>
-        <span asp-validation-for="Address" class="text-danger"></span>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Submit</button>
-    <a href="/StudentMVC/Read/" class="btn btn-secondary ms-2">View Students</a>
-</form>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
 }
+<h2>@TempData["Error"]</h2>
+<h2 class="text-center my-4">Registered Students</h2>
 
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const deptIT = document.getElementById('deptIT');
-        const deptBusiness = document.getElementById('deptBusiness');
-        const courseDropdown = document.getElementById('courseDropdown');
-
-        // Define courses for each department
-        const courses = {
-            IT: ['Java', 'Python'],
-            Business: ['BCom', 'BBA']
-        };
-
-        // Function to update course dropdown
-        function updateCourses() {
-            // Clear existing options
-            courseDropdown.innerHTML = '<option value="">-- Select Course --</option>';
-
-            // Get selected department
-            let selectedDept = null;
-            if (deptIT.checked) selectedDept = 'IT';
-            if (deptBusiness.checked) selectedDept = 'Business';
-
-            // Add courses for selected department
-            if (selectedDept && courses[selectedDept]) {
-                courses[selectedDept].forEach(course => {
-                    const option = document.createElement('option');
-                    option.value = course;
-                    option.textContent = course;
-                    courseDropdown.appendChild(option);
-                });
+<div class="container">
+    <table class="table table-bordered table-striped table-hover align-middle text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>Roll No</th>
+                <th>Full Name</th>
+                <th>Father's Name</th>
+                <th>DOB</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Course</th>
+                <th>City</th>
+                <th>Photo</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.RollNo</td>
+                    <td>@student.FullName</td>
+                    <td>@student.FatherName</td>
+                    <td>@student.DOB.ToString("dd-MM-yyyy")</td>
+                    <td>@student.MobileNo</td>
+                    <td>@student.EmailId</td>
+                    <td>@student.Gender</td>
+                    <td>@student.Department</td>
+                    <td>@student.Course</td>
+                    <td>@student.City</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(student.PhotoPath))
+                        {
+                            <img src="@($"http://localhost:5298{student.PhotoPath}")" width="100" />
+                            //5298
+                        }
+                    </td>
+                    <td>@student.Address</td>
+                    <td>
+                        <a href="/StudentMVC/Edit?id=@student.StudentId" class="btn btn-sm btn-warning mb-1">Edit</a>
+                        <a href="/StudentMVC/Delete?id=@student.StudentId"
+                           class="btn btn-sm btn-danger mb-1"
+                           onclick="return confirm('Are you sure you want to delete this student?');">
+                            Delete
+                        </a>                        
+                        <a href="/StudentMVC/Details?id=@student.StudentId" class="btn btn-sm btn-info">Details</a>
+                   </td>
+                </tr>
             }
-        }
+        </tbody>
+    </table>
 
-        // Add event listeners to department radio buttons
-        deptIT.addEventListener('change', updateCourses);
-        deptBusiness.addEventListener('change', updateCourses);
-
-        // Initialize courses if a department is already selected
-        updateCourses();
-    });
-</script>
+    <a href="/StudentMVC/Create" class="btn btn-success mt-3">Create New</a>
+</div>

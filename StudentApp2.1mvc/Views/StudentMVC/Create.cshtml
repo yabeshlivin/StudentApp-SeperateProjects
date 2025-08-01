@@ -1,0 +1,193 @@
+﻿@model StudentLibrary.Models.Student
+
+<div class="container mt-5">
+    <h2 class="mb-4">Student Registration</h2>
+
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data" class="needs-validation" >
+        <div class="row">
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="text-danger">
+                    @Html.ValidationSummary(true)
+                </div>
+            }
+            <!-- First Column -->
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="RollNo" class="form-label">Roll Number</label>
+                    <input asp-for="RollNo" class="form-control" />
+                    <span asp-validation-for="RollNo" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="FirstName" class="form-label">First Name</label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="LastName" class="form-label">Last Name</label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="FatherName" class="form-label">Father's Name</label>
+                    <input asp-for="FatherName" class="form-control" />
+                    <span asp-validation-for="FatherName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="DOB" class="form-label">Date of Birth</label>
+                    <input asp-for="DOB" type="date" class="form-control"  min="12-12-1990"/>
+                    <span asp-validation-for="DOB" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="MobileNo" class="form-label">Mobile Number</label>
+                    <input asp-for="MobileNo" class="form-control" />
+                    <span asp-validation-for="MobileNo" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Second Column -->
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="EmailId" class="form-label">Email</label>
+                    <input asp-for="EmailId" type="email" class="form-control" />
+                    <span asp-validation-for="EmailId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Gender</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" asp-for="Gender" value="Male" id="male" />
+                        <label class="form-check-label" for="male">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" asp-for="Gender" value="Female" id="female" />
+                        <label class="form-check-label" for="female">Female</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" asp-for="Gender" value="Other" id="other" />
+                        <label class="form-check-label" for="other">Other</label>
+                    </div>
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Department</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" asp-for="Department" value="IT" id="deptIT" />
+                        <label class="form-check-label" for="deptIT">IT</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" asp-for="Department" value="Business" id="deptBusiness" />
+                        <label class="form-check-label" for="deptBusiness">Business</label>
+                    </div>
+                    <span asp-validation-for="Department" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Course" class="form-label">Course</label>
+                    <select asp-for="Course" id="courseDropdown" class="form-select" >
+                        <option value="">-- Select Course --</option>
+                    </select>
+                    <span asp-validation-for="Course" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                
+                <div class="mb-3">
+                    <label asp-for="Photo" class="form-label">Photo</label>
+                    <input type="file" name="Photo" id="PhotoInput" class="form-control" asp-for="Photo" />
+                    <img id="PhotoPreview" src="#" alt="Preview" style="display:none; width:100px; margin-top:10px;" />
+                    <span asp-validation-for="Photo" class="text-danger"></span>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="City" class="form-label">City</label>
+                    <input asp-for="City" class="form-control" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Address" class="form-label">Address</label>
+            <textarea asp-for="Address" class="form-control" rows="3" required></textarea>
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+    <button asp-action="Index" class="btn btn-secondary">Index</button>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const deptIT = document.getElementById('deptIT');
+            const deptBusiness = document.getElementById('deptBusiness');
+            const courseDropdown = document.getElementById('courseDropdown');
+
+            const courses = {
+                IT: ['Java', 'Python'],
+                Business: ['BCom', 'BBA']
+            };
+
+            function updateCourses() {
+                courseDropdown.innerHTML = '<option value="">-- Select Course --</option>';
+
+                let selectedDept = null;
+                if (deptIT.checked) selectedDept = 'IT';
+                if (deptBusiness.checked) selectedDept = 'Business';
+
+                if (selectedDept && courses[selectedDept]) {
+                    courses[selectedDept].forEach(course => {
+                        const option = document.createElement('option');
+                        option.value = course;
+                        option.textContent = course;
+                        courseDropdown.appendChild(option);
+                    });
+                }
+            }
+
+            deptIT.addEventListener('change', updateCourses);
+            deptBusiness.addEventListener('change', updateCourses);
+
+            updateCourses();
+        });
+
+
+         document.getElementById("PhotoInput").onchange = function (e) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const img = document.getElementById("PhotoPreview");
+                img.src = e.target.result;
+                img.style.display = "block";
+            };
+            reader.readAsDataURL(e.target.files[0]);
+        };
+    </script>
+    
+
+}
